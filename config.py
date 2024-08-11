@@ -5,8 +5,8 @@ class Config:
 
 class DevelopmentConfig(Config):
     DEBUG = True
-    MYSQL_HOST='sicovobd.cnwv31dgaz08.us-east-1.rds.amazonaws.com'
-    MYSQL_USER='admin123'
+    MYSQL_HOST='sicovodb.cnwv31dgaz08.us-east-1.rds.amazonaws.com'
+    MYSQL_USER='admin'
     MYSQL_PASSWORD='admin123'
     MYSQL_DB='tienda_sicovo'
     MAIL_SERVER = 'smtp.googlemail.com'
